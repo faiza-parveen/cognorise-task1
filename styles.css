@@ -1,0 +1,66 @@
+body {
+    font-family: Oswald; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url("https://images.pexels.com/photos/1095601/pexels-photo-1095601.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-size: cover;
+    background-position: center;
+}
+label{
+    font-size: 2em;
+    font-family: poppins;
+    font-style: italic;
+    color: #fff;
+}
+.timer-container {
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+#countdown {
+    font-size: 8em; 
+    margin: 20px;
+    color: #9addf7;
+}
+h1{
+    color: #ecf1f3;
+    font-size: 3em;
+}
+input, button {
+    margin: 20px;
+    padding: 14px; 
+    background-color: rgb(177, 242, 242);
+    border: 2px black;
+}
+
+input {
+    border: 2px solid #111112; 
+}
+
+button {
+    background-color: #0609e7; 
+    color: #fff; 
+    border: 2px solid rgb(32, 37, 82);
+    cursor: pointer;
+    margin-top: 30px;
+    padding: 14px;
+    text-align: center;
+    display: block;
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+}
+button:hover {
+    background-color: #0938ff; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+    transform: scale(1.1);
+}
+button{
+    margin-top: 30px;
+    text-align: center;
+}
